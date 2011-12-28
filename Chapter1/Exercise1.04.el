@@ -8,4 +8,5 @@ observation to describe the behavior of the following procedure:
 *** this code don't work with elisp ***"
 
 (defun elisp-a-plus-abs-b (a b)
+  "emacs version of the above code"
   (funcall (if (> b a) '+ '-) a b))
